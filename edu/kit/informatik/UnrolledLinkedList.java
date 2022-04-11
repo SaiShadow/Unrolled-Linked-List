@@ -151,7 +151,7 @@ public class UnrolledLinkedList {
 
         String allElements = "";
         if (size() == 0) {
-            return "List is empty";
+            return allElements;
         }
 
         int i = 0;
