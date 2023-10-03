@@ -3,7 +3,8 @@
 Eine Unrolled Linked List speichert Elemente in mehreren doppelt verketteten Arrays. Bei der Initialisierung der Liste wird eine Array-Größe 𝑎 > 0 übergeben. Die ersten 𝑎 Elemente werden in einem gemeinsamen Array gespeichert, die nächsten 𝑎 Elemente in einem weiteren Array und so weiter. Die einzelnen Arrays werden doppelt verkettet.
 In dieser Aufgabe soll eine Unrolled Linked List in der Klasse UnrolledLinkedList entwickelt werden, die Ganzzahlen (int) speichert. Ihre Implementierung soll die folgenden Operationen unterstützen:
 
-• public UnrolledLinkedList(int arraySize): Konstruktor mit der Array-Größe 𝑎 als einzigem Parameter. Sie können davon ausgehen, dass 𝑎 > 0 ist.
+• public UnrolledLinkedList(int arraySize): Konstruktor mit der Array-Größe 𝑎 als einzigem Parameter. Sie können davon ausgehen, dass 𝑎 > 0 ist.  
+
 
 • public boolean push(int element): Einfügen eines Elements am Ende der Liste. Falls ein neues Array angelegt werden musste, so wird true zurückgegeben, ansonsten false.
 
