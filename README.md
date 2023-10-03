@@ -1,4 +1,4 @@
-# Aufgabe
+# Unrolled Linked List
 
 Eine Unrolled Linked List speichert Elemente in mehreren doppelt verketteten Arrays. Bei der Initialisierung der Liste wird eine Array-Größe 𝑎 > 0 übergeben. Die ersten 𝑎 Elemente werden in einem gemeinsamen Array gespeichert, die nächsten 𝑎 Elemente in einem weiteren Array und so weiter. Die einzelnen Arrays werden doppelt verkettet.
 In dieser Aufgabe soll eine Unrolled Linked List in der Klasse UnrolledLinkedList entwickelt werden, die Ganzzahlen (int) speichert. Ihre Implementierung soll die folgenden Operationen unterstützen:
